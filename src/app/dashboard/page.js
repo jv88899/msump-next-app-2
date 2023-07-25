@@ -5,6 +5,7 @@ export default function Dashboard() {
     <div className={styles.wrapper}>
       <div className={styles["inner-wrapper"]}>
         <h2>Dashboard</h2>
+        <div></div>
       </div>
     </div>
   );
