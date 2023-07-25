@@ -3,6 +3,30 @@
   min-height: 100vh;
 }
 
+.headline {
+  color: var(--pink-headline);
+  display: flex;
+  flex-direction: column;
+  font-size: 78px;
+  height: 60%;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+.button {
+  background-color: var(--pink-button);
+  border-radius: 4px;
+  color: var(--pink-button-text);
+  display: block;
+  font-size: 26px;
+  height: 56px;
+  max-width: 300px;
+  line-height: 56px;
+  margin: 60px auto;
+  text-align: center;
+  width: 90%;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

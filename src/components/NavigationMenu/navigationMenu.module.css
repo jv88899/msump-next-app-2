@@ -1,0 +1,19 @@
+/* Navigation Styles */
+.nav-wrapper {
+  align-items: center;
+  background-color: var(--pink-button);
+  bottom: 0;
+  color: var(--pink-button-text);
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+
+.nav-wrapper svg {
+  height: 33px;
+  width: 33px;
+}
